@@ -1,0 +1,7 @@
+<StackPanel Margin="20">
+    <TextBlock x:Name="lblParentID" FontSize="16" FontWeight="Bold" Margin="0,0,0,10"/>
+    <TextBlock x:Name="lblChildID" FontSize="16" Margin="0,0,0,10"/>
+    
+    <Button Content="Запустить дочерний процесс" Click="StartChild_Click" Margin="0,5"/>
+    <Button Content="Завершить дочерний процесс" Click="StopChild_Click" Margin="0,5"/>
+</StackPanel>
